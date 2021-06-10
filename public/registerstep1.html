@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register SahabatUMKM</title>
+    <link rel="shortcut icon" href="img/segitiga.png">
+    <link rel="stylesheet" href="libraries/bootstrap/bootstrap-4.6.0-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row-header">
+            <div class="col-xs-12 text-center">
+                <div class="title">
+                    <img class="mt-3" src="img/assetsahabatUMKM.png" alt="">
+                    <h2 class="text-center mt-4">Isi data diri anda</h2>
+                    <h6 class="text-center mt-2">Daftar dan gabung dengan jutaan UMKM profesional di seluruh
+                        Indonesia
+                    </h6>
+                </div>
+            </div>
+
+            <div class="progress mt-2">
+                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100">Step 1 : Isi Data Diri </div>
+            </div>
+
+            <form class="mt-5">
+                <div class="form-row">
+                    <div class="form-group col-md-12 col-lg-6">
+                        <label for="inputFullName">Nama Lengkap</label>
+                        <input type="text " class="form-control form-control-lg" id="inputFullName"
+                            placeholder="Nama Lengkap">
+                    </div>
+                    <div class="form-group col-md-12 col-lg-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control form-control-lg" id="inputEmail"
+                            placeholder="Email Kamu">
+                    </div>
+                </div>
+
+                <div class="form-row mt-4">
+                    <div class="form-group col-md-12 col-lg-2">
+                        <label for="inputJenisKelamin">Jenis Kelamin</label>
+                        <select id="inputJenisKelamin" class="form-control form-control-lg">
+                            <option selected>Pilih...</option>
+                            <option>Laki-laki</option>
+                            <option>Perempuan</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-12 col-lg-4">
+                        <label for="inputPhoneNumber">No. Handphone</label>
+                        <input type="number" class="form-control form-control-lg" id="inputPhoneNumber"
+                            placeholder="ex 021-89232123">
+                    </div>
+                    <div class="form-group col-md-12 col-lg-3">
+                        <label for="inputPassword">Kata Sandi</label>
+                        <input type="password" class="form-control form-control-lg" id="inputPassword"
+                            placeholder="Maks. 8 Karakter">
+                    </div>
+                    <div class="form-group col-md-12 col-lg-3 col-lg-3">
+                        <label for="inputConfirmPassword">Konfirmasi Kata Sandi</label>
+                        <input type="password" class="form-control form-control-lg" id="inputConfirmPassword"
+                            placeholder="Masukkan ulang kata sandi">
+                    </div>
+                </div>
+            </form>
+            <div class="d-flex justify-content-center">
+                <button type="button" class="tombol-2 btn-primary py-3 px-5 mt-4" onclick="keregister2()">Lanjut ke
+                    langkah
+                    berikutnya</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="libraries/jquery/jquery-3.2.1.min.js"></script>
+    <script src="libraries/dropzone/dropzone-5.7.0/dist/min/dropzone.min.js"></script>
+    <script src="libraries/bootstrap/bootstrap-4.6.0-dist/js/bootstrap.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SahabatUMKM | Komunitas UMKM di Indonesia</title>
+    <link rel="shortcut icon" href="img/segitiga.png">
+    <link rel="stylesheet" href="libraries/bootstrap/bootstrap-4.6.0-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/landingpage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!--navbar-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/assetsahabatUMKM.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="katalog.html">Katalog</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="event.html">Events</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="#">Kontak</a>
+                    </li>
+                    <button class="btn btn-outline-primary-search my-2 my-sm-3 my-lg-0 mx-sm-0 mx-lg-2 px-3 ">
+                        <img src="img/search-2.svg" alt="">
+                    </button>
+                    <button onclick="edituser()
+                    " class="btn btn-outline-primary-search my-2 my-sm-3 my-lg-0 mx-sm-0 mx-lg-2 px-3 ">
+                        <img src="img/user-blue-1.svg" alt="">
+                    </button>
+                    <button class="btn btn-outline-primary-search my-2 my-sm-3 my-lg-0 mx-sm-0 mx-lg-2 px-3 ">
+                        <img src="img/bell-blue.svg" alt="">
+                    </button>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--akhir navbar-->
+
+    <!--jumbotron-->
+    <div class="jumbotron mt-4 h-300">
+        <div class="container">
+            <h1 class="display-3 text-white">Satu tempat untuk <br>
+                semua UMKM</h1>
+            <p class="lead text-white-50">Jadikan UMKM anda sebagai program-program yang dapat meningkatkan potensi
+                usaha di <br>
+                masa depan dengan platform SAHABATUMKM.</p>
+            <button class="btn btn-primary p-3">Pelajari Lebih Lanjut</button>
+        </div>
+    </div>
+    <!--akhir jumbotron-->
+
+    <!--bagian tentang sahabatUMKM-->
+    <div class="container">
+        <div class="section-phase">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <h2 class="text-main">Tentang <br> SahabatUMKM</h2>
+                    <p>Sahabat UMKM dibentuk sebagai komunitas yang memberikan <br>
+                        kontribusi positif dalam mengembangkan potensi usaha para <br>
+                        pelaku UMKM di Indonesia.
+                    </p>
+                </div>
+                <div class="second-section d-none d-xl-block col-sm-12 col-md-12 col-lg-6">
+                    <img src="img/section-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--akhir bagian tentang sahabatUMKM-->
+
+    <!--events-->
+    <section class="p-1">
+        <div class="container-section">
+            <div class="section-phase">
+                <h2 class="text-main text-center mt-5">Event Hari Ini</h2>
+            </div>
+            <!--events card-->
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card event mt-5">
+                            <img src="img/card-1.svg" alt="" class="card-img-top">
+                            <div class="card-body event-body">
+                                <p class="card-text text-muted">Senin, 25 Februari 2021</p>
+                                <h5 class="card-title">
+                                    Seminar UKM 2021
+                                </h5>
+                                <p class="card-text mt-4">
+                                    <img src="img/clock 1.png" alt="" class="mr-3">08.00 - 11.00
+                                </p>
+                                <p class="card-text mt-4">
+                                    <img src="img/dollar-sign 1.png" alt="" class="mr-3">Rp45.000/orang
+                                </p>
+                                <p class="card-text mt-4">
+                                    <img src="img/home-1.png" alt="" class="mr-3">Video Conference (Zoom)
+                                </p>
+                                <button onclick="lihatevent()" class="btn btn-block btn-primary mt-5 p-2">Lihat Detail
+                                    Event
+                                    Ini</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card event mt-5">
+                            <img src="img/card-2.svg" alt="" class="card-img-top">
+                            <div class="card-body event-body">
+                                <p class="card-text text-muted">Senin, 25 Februari 2021</p>
+                                <h5 class="card-title">
+                                    Seminar UKM 2021
+                                </h5>
+                                <p class="card-text mt-4">
+                                    <img src="img/clock 1.png" alt="" class="mr-3">08.00 - 11.00
+                                </p>
+                                <p class="card-text mt-4">
+                                    <img src="img/dollar-sign 1.png" alt="" class="mr-3">Rp45.000/orang
+                                </p>
+                                <p class="card-text mt-4">
+                                    <img src="img/home-1.png" alt="" class="mr-3">Video Conference (Zoom)
+                                </p>
+                                <button onclick="lihatevent()" class="btn btn-block btn-primary mt-5 p-2">Lihat Detail
+                                    Event
+                                    Ini</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card event mt-5">
+                            <img src="img/card-3.svg" alt="" class="card-img-top">
+                            <div class="card-body event-body">
+                                <p class="card-text text-muted">Senin, 25 Februari 2021</p>
+                                <h5 class="card-title">
+                                    Seminar UKM 2021
+                                </h5>
+                                <p class="card-text mt-4">
+                                    <img src="img/clock 1.png" alt="" class="mr-3">08.00 - 11.00
+                                </p>
+                                <p class="card-text mt-4">
+                                    <img src="img/dollar-sign 1.png" alt="" class="mr-3">Rp45.000/orang
+                                </p>
+                                <p class="card-text mt-4">
+                                    <img src="img/home-1.png" alt="" class="mr-3">Video Conference (Zoom)
+                                </p>
+                                <button onclick="lihatevent()" class="btn btn-block btn-primary mt-5 p-2">Lihat Detail
+                                    Event
+                                    Ini</button>
+                            </div>
+                        </div>
+                        <a href="event.html" class="link float-right mt-5 mb-5">Lihat Semua Event>></a>
+                    </div>
+                </div>
+            </div>
+            <!--akhir events card-->
+        </div>
+    </section>
+    <!--akhir events-->
+
+    <!--testimoni-->
+    <div class="container">
+        <div class="section-phase">
+            <h2 class="text-main text-center">Apa kata mereka tentang <img src="img/assetsahabatUMKM.png" alt=""></h2>
+            <div class="row">
+
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card testimonial mt-5">
+                        <div class="card-body testimonial-body text-center">
+                            <p>
+                                “Lorem ipsum dolor sit amet,<br>
+                                consectetur adipiscing elit.<br>
+                                Aenean quis rhoncus, mauris<br>
+                                fames in semper.”
+                            </p>
+                            <div class="testimonials mt-5">
+                                <img src="img/picturecustomer-1.png" alt="" class="mr-3"> Naufal Permana
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card testimonial mt-5">
+                        <div class="card-body testimonial-body text-center">
+                            <p>
+                                “Lorem ipsum dolor sit amet,<br>
+                                consectetur adipiscing elit.<br>
+                                Aenean quis rhoncus, mauris<br>
+                                fames in semper.”
+                            </p>
+                            <div class="testimonials mt-5">
+                                <img src="img/picturecustomer-1.png" alt="" class="mr-3"> Naufal Permana
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card testimonial mt-5">
+                        <div class="card-body testimonial-body text-center">
+                            <p>
+                                “Lorem ipsum dolor sit amet,<br>
+                                consectetur adipiscing elit.<br>
+                                Aenean quis rhoncus, mauris<br>
+                                fames in semper.”
+                            </p>
+                            <div class="testimonials mt-5">
+                                <img src="img/picturecustomer-1.png" alt="" class="mr-3"> Naufal Permana
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--akhir testimoni-->
+
+    <!--footer-->
+    <section>
+        <div class="container">
+            <div class="container-section">
+                <div class="section-phase">
+                    <div class="row">
+
+                        <div class="col">
+                            <div class="footer-image">
+                                <img src="img/assetsahabatUMKM.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 mt-5 col-lg-5">
+                            <div class="text-lg-right">
+                                <h3 class="footer-text">Sekretariat SahabatUMKM</h3>
+                                <p>Jalan Kebon Kacang Raya no. 25 <br>
+                                    Tanah Abang, Jakarta Pusat</p>
+                                <p>(+62) 21 3917399</p>
+                                <p>sekretariat@sahabatumkm.id</p>
+                            </div>
+                            <div class="social-media-footer mb-5">
+                                <img src="img/fb.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3 mr-lg-3">
+                                <img src="img/twitter.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/linkedin.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/google.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/instagram.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/youtube.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--akhir footer-->
+
+    <!--footer-2-->
+    <div class="footer-copyright p-1">
+        <div class="container">
+            <p class="text-lg-center mt-3">Copyright @ 2021 - SahabatUMKM All Rights Reserved</p>
+        </div>
+    </div>
+    <!--akhir footer-2-->
+
+    <!--script-->
+    <script src="libraries/jquery/jquery-3.2.1.min.js"></script>
+    <script src="libraries/dropzone/dropzone-5.7.0/dist/min/dropzone.min.js"></script>
+    <script src="libraries/bootstrap/bootstrap-4.6.0-dist/js/bootstrap.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <!--akhir script-->
+</body>
+
+</html>

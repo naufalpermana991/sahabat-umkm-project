@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <link rel="shortcut icon" href="img/segitiga.png">
+    <link rel="stylesheet" href="libraries/bootstrap/bootstrap-4.6.0-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/landingpage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!--navbar-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="indexbeforelogin.html">
+                <img src="img/assetsahabatUMKM.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="katalogbeforelogin.html">Katalog</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="galeribeforelogin.html">Galeri</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="eventbeforelogin.html">Events</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="beritabeforelogin.html">Berita</a>
+                    </li>
+                    <li class="nav-item mr-3 active ">
+                        <a class="nav-link" href="#">Kontak</a>
+                    </li>
+                    <button class="btn btn-outline-primary-search my-2 my-sm-3 my-lg-0 mx-sm-0 mx-lg-4 px-3 ">
+                        <img src="img/search-2.svg" alt="">
+                    </button>
+                    <button onclick="login()" class="btn btn-outline-primary my-2 my-sm-3 my-lg-0 px-5 ">Login</button>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--akhir navbar-->
+
+    <!-- kontak -->
+    <div class="container mt-5">
+        <h2 class="text-title">Lokasi kami</h2>
+        <div class="location-map mt-5"></div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="text-title">Kontak kami</h2>
+        <div class="row">
+            <div class="col-5 mt-4">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="email">Alamat Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subjek</label>
+                        <textarea type="text" class="form-control" id="subject" rows="3"></textarea>
+                    </div>
+                    <a href="#" class="btn btn-block btn-primary py-2 mt-4">Kirim</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- akhir kontak -->
+
+    <!--footer-->
+    <section>
+        <div class="container">
+            <div class="container-section">
+                <div class="section-phase">
+                    <div class="row">
+
+                        <div class="col">
+                            <div class="footer-image ">
+                                <img src="img/assetsahabatUMKM.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 mt-5 col-lg-5">
+                            <div class="text-lg-right">
+                                <h3 class="footer-text">Sekretariat SahabatUMKM</h3>
+                                <p>Jalan Kebon Kacang Raya no. 25 <br>
+                                    Tanah Abang, Jakarta Pusat</p>
+                                <p>(+62) 21 3917399</p>
+                                <p>sekretariat@sahabatumkm.id</p>
+                            </div>
+                            <div class="social-media-footer mb-5">
+                                <img src="img/fb.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3 mr-lg-3">
+                                <img src="img/twitter.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/linkedin.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/google.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/instagram.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/youtube.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--akhir footer-->
+    <!--footer-2-->
+    <div class="footer-copyright p-1">
+        <div class="container">
+            <p class="text-lg-center mt-3">Copyright @ 2021 - SahabatUMKM All Rights Reserved</p>
+        </div>
+    </div>
+    <!--akhir footer-2-->
+</body>
+
+</html>

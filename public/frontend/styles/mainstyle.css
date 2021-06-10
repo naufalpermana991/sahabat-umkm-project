@@ -1,0 +1,491 @@
+/*navbar*/
+.nav-link:hover {
+  color: #242424 !important;
+}
+
+.navbar-brand {
+  margin-bottom: 10px;
+}
+
+.navbar-brand img {
+  max-height: 60px;
+}
+
+.tombol-outline {
+  margin-left: 0;
+  margin-top: 15px;
+  border: 3px solid #1a3d6f;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  color: #1a3d6f;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.tombol-outline:hover {
+  background-color: #1a3d6f;
+  border: 3px solid #1a3d6f;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 30px;
+  line-height: 46px;
+}
+
+/*akhir navbar*/
+/*jumbotron*/
+.jumbotron {
+  z-index: 1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/header.png);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../img/header.png);
+  background-size: cover;
+  height: 464px;
+}
+
+.jumbotron .display-3 {
+  margin-top: 70px;
+  line-height: 40px;
+  font-size: 30px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+}
+
+.lead {
+  line-height: 30px;
+  font-size: 15px;
+}
+
+/*akhir jumbotron*/
+/*section-1*/
+.section-1 {
+  margin-top: 150px;
+  height: 330px;
+  border-radius: 100px 0px;
+}
+
+/*akhir section-1*/
+/*section-tentangumkm*/
+.section-tentangumkm {
+  font-family: "Sora", sans-serif;
+  font-weight: bold;
+  margin-top: 10px !important;
+}
+
+h2 {
+  font-family: "Sora", sans-serif;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+/*akhir section-tentangumkm*/
+.section-2 {
+  margin-top: 30px;
+}
+
+.card {
+  border-radius: 20px;
+  border: none;
+  background-color: #d2d2d2;
+}
+
+.card-deck {
+  margin-top: 50px;
+}
+
+.card-text {
+  margin-bottom: 25px;
+  line-height: 27px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: #242424;
+  letter-spacing: 0.01em;
+}
+
+.card-text .icons {
+  max-height: 24px;
+  color: #242424;
+}
+
+.card-title {
+  font-weight: 600;
+  font-family: Open Sans;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+}
+
+.card-subtitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  /* Black - 1 */
+  color: #242424;
+  opacity: 0.75;
+}
+
+span.link {
+  margin-top: -25px;
+  float: right;
+}
+
+.tombol-2 {
+  font-family: Open Sans;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #1a3d6f;
+  border: none;
+}
+
+.tombol-2:hover {
+  background-color: #0b1b32;
+}
+
+.tombol-2-alt {
+  font-family: Open Sans;
+  font-weight: 600;
+  border-radius: 00px 0px 10px 10px;
+  background-color: #1a3d6f;
+  border: none;
+}
+
+.tombol-2-alt:hover {
+  background-color: #0b1b32;
+}
+
+h2.teks-review {
+  font-size: 20px;
+}
+
+h2.teks-review img {
+  max-height: 35px;
+}
+
+.tombol-2-outline {
+  font-family: Open Sans;
+  color: #1a3d6f;
+  font-weight: 600;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #ebebeb;
+  border: none;
+}
+
+.tombol-2-outline:hover {
+  background-color: #d6d6d6;
+  color: #0b1b32;
+}
+
+.card-reviews {
+  border-radius: 20px;
+  border: none;
+  background-color: #fafafa;
+}
+
+.customer-review {
+  font-size: 15px;
+}
+
+.customer-review img {
+  max-height: 30px;
+}
+
+/*login page*/
+.title img {
+  max-height: 60px;
+}
+
+.title h2 {
+  font-size: 30px;
+  color: #3d3d3d;
+}
+
+.title h6 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  color: #3d3d3d;
+  font-weight: 400;
+  opacity: 0.69;
+}
+
+/*akhir login*/
+/*label*/
+label {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  color: #3d3d3d;
+}
+
+/*form-color*/
+input {
+  background-color: #f2f2f2 !important;
+}
+
+/*placeholder font-size@form*/
+::-webkit-input-placeholder {
+  font-size: 25px;
+  color: #bdbdbd !important;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 25px;
+  color: #bdbdbd !important;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 25px;
+  color: #bdbdbd !important;
+}
+
+/* Overriding styles */
+::-webkit-input-placeholder {
+  font-size: 16px !important;
+  color: #f2f2f2;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 16px !important;
+  color: #f2f2f2;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 16px !important;
+  color: #f2f2f2;
+}
+
+span.link-forgotpassword {
+  margin-top: -5px;
+  margin-bottom: 30px;
+  float: right;
+}
+
+span.link-forgotpassword a {
+  color: #275ba5;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+span.link-forgotpassword a:hover {
+  color: #0b1b32;
+}
+
+.link-register h6 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  color: #3d3d3d;
+}
+
+.link-register h6 .register a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 27px;
+  color: #1a3d6f;
+}
+
+.link-register h6 .register a:hover {
+  color: #0b1b32;
+}
+
+.backtohome a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #1a3d6f;
+}
+
+.backtohome :hover {
+  color: #0b1b32;
+}
+
+.progress {
+  height: 31px;
+}
+
+.progress-bar {
+  background-color: #aeddcd;
+  color: #0b1b32;
+}
+
+.upload-form {
+  height: 20em;
+  background: #ffffff;
+  border: 2px dashed #8e8e8e;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.input-group-text .ig {
+  background-color: #0b1b32 !important;
+}
+
+.wajibisi {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  color: #242424;
+  opacity: 0.68;
+}
+
+.ketentuanupload {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  color: #242424;
+  opacity: 0.68;
+  padding: 4.5em;
+}
+
+.upload-form {
+  background: #ffffff;
+  border: 2px dashed #8e8e8e !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.upload-transaction {
+  background: #efefef;
+  border: 2px dashed #8e8e8e !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.section-3 {
+  background-color: #efefef;
+}
+
+.section-3 .footer img {
+  max-height: 75px;
+}
+
+.footer-title {
+  font-family: Sora;
+  font-weight: 600;
+  margin-left: -25px;
+}
+
+.social-media-footer img {
+  max-height: 24px;
+}
+
+.social-media-footer {
+  margin-left: -12px;
+}
+
+.section-4 {
+  background-color: #3d3d3d;
+}
+
+.footer-texts {
+  font-weight: 400 !important;
+  font-family: Open Sans !important;
+  color: #ffffff;
+}
+
+/*mobile version*/
+@media (min-width: 576px) {
+  .navbar-brand {
+    margin: 0;
+  }
+  .tombol-outline {
+    margin-left: 30px;
+    margin-top: 0;
+  }
+  .jumbotron .display-3 {
+    margin-top: 50px;
+    line-height: 71px;
+    font-size: 58px;
+  }
+  .lead {
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .section-1 {
+    margin-top: 150px;
+    height: 380px;
+    border-radius: 100px 0px;
+  }
+  .section-tentangumkm {
+    margin-top: -270px !important;
+    font-family: "Sora", sans-serif;
+    font-weight: bold;
+    line-height: 45px;
+  }
+  h6 {
+    font-size: 19px;
+  }
+  .section-2 {
+    background-color: #efefef;
+    margin-top: 150px;
+    height: 780px;
+  }
+  .text-center {
+    font-family: "Sora", sans-serif;
+    font-weight: bold;
+  }
+  span.link {
+    float: right;
+  }
+  h2.teks-review {
+    font-size: 32px;
+  }
+  h2.teks-review img {
+    max-height: 40px;
+  }
+  .progress {
+    height: 35px;
+  }
+  .progress-bar {
+    background-color: #aeddcd;
+    font-size: 15px;
+    color: #0b1b32;
+  }
+  .nama-usaha {
+    padding-left: 5px !important;
+  }
+  .ketentuanupload {
+    padding: 3.7em;
+  }
+  .footer-title {
+    margin-right: -25px;
+  }
+  .social-media-footer {
+    margin-right: -20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nama-usaha {
+    padding-left: 40px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

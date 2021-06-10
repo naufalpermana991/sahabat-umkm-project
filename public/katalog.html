@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog SahabatUMKM</title>
+    <link rel="shortcut icon" href="img/segitiga.png">
+    <link rel="stylesheet" href="libraries/bootstrap/bootstrap-4.6.0-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/landingpage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!--navbar-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="indexafterlogin.html">
+                <img src="img/assetsahabatUMKM.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active mr-3">
+                        <a class="nav-link" href="#">Katalog</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="event.html">Events</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                    <button class="btn btn-outline-primary-search my-2 my-sm-3 my-lg-0 mx-sm-0 mx-lg-2 px-3 ">
+                        <img src="img/search-2.svg" alt="">
+                    </button>
+                    <button onclick="edituser()
+                    " class="btn btn-outline-primary-search my-2 my-sm-3 my-lg-0 mx-sm-0 mx-lg-2 px-3 ">
+                        <img src="img/user-blue-1.svg" alt="">
+                    </button>
+                    <button class="btn btn-outline-primary-search my-2 my-sm-3 my-lg-0 mx-sm-0 mx-lg-2 px-3 ">
+                        <img src="img/bell-blue.svg" alt="">
+                    </button>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--akhir navbar-->
+
+    <!--jumbotron-->
+    <div class="jumbotron catalog mt-4 h-300">
+        <div class="container">
+            <div class="container">
+                <h6 class="text-title text-white-50">UKM Bulan Ini</h6>
+                <h1 class="display-3 text-white">Distribusi Pasar <br>
+                    Cianjur</h1>
+            </div>
+            <div class="container">
+                <p class="lead text-white">Buat kalian yang ingin membeli bahan pokok sehari-hari kalian bisa
+                    mengunjungi
+                    pasar cianjur <br>
+                    dan jangan khawatir akan kualitas bahannya karena sudah terbukti berkualitas</p>
+            </div>
+        </div>
+    </div>
+    <!--akhir jumbotron-->
+
+    <!--dropdown-->
+    <div class="container mt-5">
+        <div class="container">
+            <div class="btn-group">
+                <button class="btn btn-secondary-dropdown btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <img src="img/catalog/category-1.svg" alt="" class="mr-3 py-1">Pilih Sektor Usaha
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Perikanan</a>
+                    <a href="#" class="dropdown-item">Pertambangan</a>
+                    <a href="#" class="dropdown-item">Pedagangan</a>
+                    <a href="#" class="dropdown-item">Perbankan</a>
+                    <a href="#" class="dropdown-item">Pertanian</a>
+                </div>
+            </div>
+            <div class="btn-group mx-lg-3">
+                <button class="btn btn-secondary-dropdown btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <img src="img/catalog/category-1.svg" alt="" class="mr-3 py-1">Pilih Sub Sektor Usaha
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Perikanan</a>
+                    <a href="#" class="dropdown-item">Pertambangan</a>
+                    <a href="#" class="dropdown-item">Pedagangan</a>
+                    <a href="#" class="dropdown-item">Perbankan</a>
+                    <a href="#" class="dropdown-item">Pertanian</a>
+                </div>
+            </div>
+            <div class="btn-group mx-lg-3">
+                <button class="btn btn-secondary-dropdown btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <img src="img/catalog/category-1.svg" alt="" class="mr-3 py-1">Daerah
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Perikanan</a>
+                    <a href="#" class="dropdown-item">Pertambangan</a>
+                    <a href="#" class="dropdown-item">Pedagangan</a>
+                    <a href="#" class="dropdown-item">Perbankan</a>
+                    <a href="#" class="dropdown-item">Pertanian</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--akhir dropdown-->
+
+    <!--catalog cards-->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-sm-2 col-lg-3 mt-4">
+                <div class="container">
+                    <div class="card catalog-card" style="width: 15rem;">
+                        <img class="card-img-top" src="img/catalog/catalog.svg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="detailkatalog.html" class="hr">
+                                <h5 class="card-title">Fresh Market</h5>
+                                <p>Perikanan</p>
+                                <p>Sub Bibit Ikan</p>
+                            </a>
+                            <p class="card-text mt-5">
+                                <img src="img/catalog/placeholder-1.svg" alt="" class="mr-2">Jakarta, Indonesia
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-sm-2 col-lg-3 mt-4">
+                <div class="container">
+                    <div class="card catalog-card" style="width: 15rem;">
+                        <img class="card-img-top" src="img/catalog/catalog.svg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="detailkatalog.html" class="hr">
+                                <h5 class="card-title">Fresh Market</h5>
+                                <p>Perikanan</p>
+                                <p>Sub Perikanan</p>
+                            </a>
+                            <p class="card-text mt-5">
+                                <img src="img/catalog/placeholder-1.svg" alt="" class="mr-2">Jakarta, Indonesia
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-sm-2 col-lg-3 mt-4">
+                <div class="container">
+                    <div class="card catalog-card" style="width: 15rem;">
+                        <img class="card-img-top" src="img/catalog/catalog.svg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="detailkatalog.html" class="hr">
+                                <h5 class="card-title">Fresh Market</h5>
+                                <p>Perikanan</p>
+                                <p>Sub Perikanan</p>
+                            </a>
+                            <p class="card-text mt-5">
+                                <img src="img/catalog/placeholder-1.svg" alt="" class="mr-2">Jakarta, Indonesia
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-sm-2 col-lg-3 mt-4">
+                <div class="container">
+                    <div class="card catalog-card" style="width: 15rem;">
+                        <img class="card-img-top" src="img/catalog/catalog.svg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="detailkatalog.html" class="hr">
+                                <h5 class="card-title">Fresh Market</h5>
+                                <p>Perikanan</p>
+                                <p>Sub Perikanan</p>
+                            </a>
+                            <p class="card-text mt-5">
+                                <img src="img/catalog/placeholder-1.svg" alt="" class="mr-2">Jakarta, Indonesia
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--event catalog cards-->
+
+    <!--footer-->
+    <section>
+        <div class="container">
+            <div class="container-section">
+                <div class="section-phase">
+                    <div class="row">
+                        <div class="col">
+                            <div class="footer-image">
+                                <img src="img/assetsahabatUMKM.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 mt-5 col-lg-5">
+                            <div class="text-lg-right">
+                                <h3 class="footer-text">Sekretariat SahabatUMKM</h3>
+                                <p>Jalan Kebon Kacang Raya no. 25 <br>
+                                    Tanah Abang, Jakarta Pusat</p>
+                                <p>(+62) 21 3917399</p>
+                                <p>sekretariat@sahabatumkm.id</p>
+                            </div>
+                            <div class="social-media-footer mb-5">
+                                <img src="img/fb.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3 mr-lg-3">
+                                <img src="img/twitter.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/linkedin.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/google.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/instagram.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/youtube.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--akhir footer-->
+
+    <!--footer-2-->
+    <div class="footer-copyright p-1">
+        <div class="container">
+            <p class="text-lg-center mt-3">Copyright @ 2021 - SahabatUMKM All Rights Reserved</p>
+        </div>
+    </div>
+    <!--akhir footer-2-->
+
+    <!--script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="libraries/jquery/jquery-3.2.1.min.js"></script>
+    <script src="libraries/dropzone/dropzone-5.7.0/dist/min/dropzone.min.js"></script>
+    <script src="libraries/bootstrap/bootstrap-4.6.0-dist/js/bootstrap.js"></script>
+    <script src="scripts/scripts.js"></script>
+
+    <!--akhir script-->
+</body>
+
+</html>

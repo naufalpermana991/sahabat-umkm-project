@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Seputar UMKM di Indonesia</title>
+    <link rel="shortcut icon" href="img/segitiga.png">
+    <link rel="stylesheet" href="libraries/bootstrap/bootstrap-4.6.0-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/landingpage.css">
+    <link rel="stylesheet" href="styles/simple-sidebar.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!--navbar-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="indexbeforelogin.html">
+                <img src="img/assetsahabatUMKM.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="katalogbeforelogin.html">Katalog</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="galeribeforelogin.html">Galeri</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="eventbeforelogin.html">Events</a>
+                    </li>
+                    <li class="nav-item active mr-3">
+                        <a class="nav-link" href="beritabeforelogin.html">Berita</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="kontakbeforelogin.html">Kontak</a>
+                    </li>
+                    <button class="btn btn-outline-primary-search my-2 my-sm-3 my-lg-0 mx-sm-0 mx-lg-4 px-3 ">
+                        <img src="img/search-2.svg" alt="">
+                    </button>
+                    <button onclick="login()" class="btn btn-outline-primary my-2 my-sm-3 my-lg-0 px-5 ">Login</button>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--akhir navbar-->
+
+    <!--berita-->
+    <h2 class="text-center text-title mt-5">Berita Hari Ini</h2>
+    <div class="container mt-5">
+        <!--buttons-->
+        <div class="row">
+            <div class="col-6 col-sm-6 col-lg-3 mt-3 mt-sm-3 mt-lg-0">
+                <button onclick="keAcara_beforelogin()" class="btn btn-block btn-secondary-toggle p-3">
+                    <img src="img/berita/seminar.svg" alt="" class="mr-4">
+                    Acara
+                </button>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 mt-3 mt-sm-3 mt-lg-0">
+                <button onclick="keTipsdanTrik_beforelogin()" class="btn btn-block btn-secondary-toggle p-3">
+                    <img src="img/berita/light-1.svg" alt="" class="mr-4">
+                    Tips dan Trik
+                </button>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 mt-3 mt-sm-3 mt-lg-0">
+                <button class="btn btn-block btn-primary-toggle text-white p-3">
+                    <img src="img/berita/pengumuman.svg" alt="" class="mr-4">
+                    Pengumuman
+                </button>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 mt-3 mt-sm-3 mt-lg-0">
+                <button onclick="keBerita_beforelogin()" class="btn btn-block btn-secondary-toggle p-3">
+                    <img src="img/berita/news-1.svg" alt="" class="mr-4">
+                    Berita
+                </button>
+            </div>
+        </div>
+        <!--buttons-->
+
+
+        <!--title berita-->
+        <div class="card news-title mt-5">
+            <img class="img-fluid card-img-top" src="img/berita/card-news-1.png" alt="">
+            <div class="card-img-overlay">
+                <p class="author text-white-50">
+                    <img src="img/berita/author-1.svg" alt="" class="mr-3">
+                    Ivan Purba
+                </p>
+                <h2 class="card-title text-white ">
+                    PT. FreshMarket adakan seminar penjualan instagram
+                </h2>
+                <p class="text-white-50">Sebagai pengusaha yang baru merambah di media sosial, kita harus tau bagaimana
+                    cara produk kita
+                    berkembang pesat di sektor
+                    penjualan. Maka dari itu, PT FreshMarket mengadakan seminar penjualan</p>
+            </div>
+        </div>
+        <!--akhir title berita-->
+
+        <div class="row">
+            <div class="col-6 col-sm-6 col-lg-3 mt-4">
+                <div class="card news-card">
+                    <img class="card-img-top" src="img/main-news-1.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="detailberita.html">
+                            <h5 class="card-title">UMKM PT. A adakan <br>
+                                Kompetisi tulis online</h5>
+                        </a>
+                        <a href="detailberita.html">
+                            <p class="card-text">PT. A sedang mengadakan tulis online
+                                yang diselenggarakan pada tanggal 26
+                                Februari 2020. Acara ini melibatkan 250
+                                peserta dalam jangka waktu 3 hari</p>
+                        </a>
+                        <p class="author text-black-50 mt-5">
+                            <img src="img/berita/author-1.svg" alt="" class="mr-3">
+                            Ivan Purba
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 mt-4">
+                <div class="card news-card">
+                    <img class="card-img-top" src="img/main-news-1.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">UMKM PT. B adakan <br>
+                            Kompetisi tulis online</h5>
+                        <p class="card-text">PT. B sedang mengadakan tulis online
+                            yang diselenggarakan pada tanggal 26
+                            Februari 2020. Acara ini melibatkan 250
+                            peserta dalam jangka waktu 3 hari</p>
+                        <p class="author text-black-50 mt-5">
+                            <img src="img/berita/author-1.svg" alt="" class="mr-3">
+                            Ivan Purba
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 mt-4">
+                <div class="card news-card">
+                    <img class="card-img-top" src="img/main-news-1.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">UMKM PT. C adakan <br>
+                            Kompetisi tulis online</h5>
+                        <p class="card-text">PT. C sedang mengadakan tulis online
+                            yang diselenggarakan pada tanggal 26
+                            Februari 2020. Acara ini melibatkan 250
+                            peserta dalam jangka waktu 3 hari</p>
+                        <p class="author text-black-50 mt-5">
+                            <img src="img/berita/author-1.svg" alt="" class="mr-3">
+                            Ivan Purba
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 mt-4">
+                <div class="card news-card">
+                    <img class="card-img-top" src="img/main-news-1.svg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">UMKM PT. D adakan <br>
+                            Kompetisi tulis online</h5>
+                        <p class="card-text">PT. D sedang mengadakan tulis online
+                            yang diselenggarakan pada tanggal 26
+                            Februari 2020. Acara ini melibatkan 250
+                            peserta dalam jangka waktu 3 hari</p>
+                        <p class="author text-black-50 mt-5">
+                            <img src="img/berita/author-1.svg" alt="" class="mr-3">
+                            Ivan Purba
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--akhir berita-->
+
+    <!--footer-->
+    <section>
+        <div class="container">
+            <div class="container-section">
+                <div class="section-phase">
+                    <div class="row">
+
+                        <div class="col">
+                            <div class="footer-image">
+                                <img src="img/assetsahabatUMKM.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 mt-5 col-lg-5">
+                            <div class="text-lg-right">
+                                <h3 class="footer-text">Sekretariat SahabatUMKM</h3>
+                                <p>Jalan Kebon Kacang Raya no. 25 <br>
+                                    Tanah Abang, Jakarta Pusat</p>
+                                <p>(+62) 21 3917399</p>
+                                <p>sekretariat@sahabatumkm.id</p>
+                            </div>
+                            <div class="social-media-footer mb-5">
+                                <img src="img/fb.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3 mr-lg-3">
+                                <img src="img/twitter.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/linkedin.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/google.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/instagram.svg" alt="">
+                            </div>
+                            <div class="social-media-footer ml-3">
+                                <img src="img/youtube.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--akhir footer-->
+
+    <!--footer-2-->
+    <div class="footer-copyright p-1">
+        <div class="container">
+            <p class="text-lg-center mt-3">Copyright @ 2021 - SahabatUMKM All Rights Reserved</p>
+        </div>
+    </div>
+    <!--akhir footer-2-->
+
+    <!--script-->
+    <script src="libraries/jquery/jquery-3.2.1.min.js"></script>
+    <script src="libraries/dropzone/dropzone-5.7.0/dist/min/dropzone.min.js"></script>
+    <script src="libraries/bootstrap/bootstrap-4.6.0-dist/js/bootstrap.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <!--akhir script-->
+</body>
+
+</html>

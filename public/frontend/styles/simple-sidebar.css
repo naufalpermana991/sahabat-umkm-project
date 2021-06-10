@@ -1,0 +1,153 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .sidebar-heading img {
+  max-height: 50px;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#sidebar-wrapper .list-group .list-group-item .text-list-active {
+  font-family: Open Sans;
+  font-weight: 600;
+  color: #1a3d6f;
+}
+
+#sidebar-wrapper .list-group .list-group-item .text-list {
+  font-family: Open Sans;
+  font-weight: 600;
+  color: #afbbcd;
+}
+
+#sidebar-wrapper .list-group .list-group-item .text-list-logout {
+  font-family: Open Sans;
+  font-weight: 600;
+  color: #b81919;
+}
+
+#sidebar-wrapper .list-group .list-group-item .icon-link-active {
+  background-color: #1a3d6f;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#sidebar-wrapper .list-group .list-group-item .icon-link {
+  background-color: #dde2e9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#sidebar-wrapper .list-group .list-group-item .icon-link-logout {
+  background-color: #f57575;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+/*form*/
+.form-control {
+  background-color: #f2f2f2;
+  border: 2px solid #d6d6d6;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+label {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  color: #242424;
+}
+
+/*akhir form*/
+/*history-event*/
+.card-img-top {
+  border-radius: 10px;
+}
+
+.history-event img {
+  max-height: 210px;
+}
+
+.history-event {
+  border-radius: 10px;
+}
+
+.history-event .history-event-body {
+  background: #dde2e9;
+  border-radius: 10px;
+}
+
+.badge {
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+/*akhir history-event*/
+/*transaksi*/
+.transaction {
+  border-radius: 10px;
+}
+
+.transaction .card-body {
+  background-color: #efefef;
+  border-radius: 10px;
+}
+
+/*akhir transaksi*/
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+  .illustration-state {
+    margin-top: 7rem;
+  }
+  .illustration-state img {
+    max-height: 95px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .illustration-state {
+    margin-top: 7rem;
+  }
+  .illustration-state img {
+    max-height: 216px;
+  }
+}
+/*# sourceMappingURL=simple-sidebar.css.map */

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register SahabatUMKM</title>
+    <link rel="shortcut icon" href="img/segitiga.png">
+    <link rel="stylesheet" href="libraries/bootstrap/bootstrap-4.6.0-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/dropzone.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row-header">
+            <div class="col-xs-12 text-center">
+                <div class="title">
+                    <img class="mt-3" src="img/assetsahabatUMKM.png" alt="">
+                    <h2 class="text-center 
+                    mt-4">Isi data produk anda</h2>
+                </div>
+            </div>
+
+            <div class="progress mt-2">
+                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100">Step 3 : Isi Data Produk </div>
+            </div>
+
+
+            <!--upload form-->
+            <div class="mt-4">
+                <div class="form-row">
+                    <div class="form-group col-sm-12 col-md-12 col-lg-4">
+                        <form action="/file-upload" class="dropzone upload-form" id="my-awesome-dropzone">
+                            <div class="dz-default dz-message">
+                                <div class="text-center">
+                                    <div class="ketentuanupload">
+                                        Silahkan unggah foto produk anda disini
+                                        Maksimal ukuran 2 MB format .JPG dan .PNG
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+
+
+                    <div class="nama-usaha form-group col-sm-12 col-md-12 col-lg-8">
+                        <label for="linksocialmedia">Link Sosial Media</label>
+
+                        <!--instagram-->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text ig " id="basic-addon3">
+                                    <img src="img/logo-ig.svg" alt="" style="max-height: 24px;">
+                                </span>
+                            </div>
+                            <input type="text" class="form-control form-control-lg" id="basic-url"
+                                aria-describedby="basic-addon3" placeholder="Link instagram">
+                        </div>
+
+                        <!--facebook-->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text fb" id="basic-addon3">
+                                    <img src="img/logo-fb.svg" alt="" style="max-height: 24px;">
+                                </span>
+                            </div>
+                            <input type="text" class="form-control form-control-lg" id="basic-url"
+                                aria-describedby="basic-addon3" placeholder="Link facebook">
+                        </div>
+
+                        <p class="wajibisi float-right">Silahkan isi salah satu link usaha anda</p>
+
+                        <!--Shopee-->
+                        <div style="margin-top: 20px;">
+                            <label for="linkmarketplace">Link Marketplace</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text fb" id="basic-addon3">
+                                        <img src="img/shopee-vector.png" alt="" style="max-height: 24px;">
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control form-control-lg" id="basic-url"
+                                    aria-describedby="basic-addon3" placeholder="Link shopee">
+                            </div>
+                        </div>
+
+                        <!--tokopedia-->
+                        <div class="mt-3">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text " id="basic-addon3">
+                                        <img src="img/tokopedia-logo.png" alt="" style="max-height: 24px;">
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control form-control-lg" id="basic-url"
+                                    aria-describedby="basic-addon3" placeholder="Link tokopedia">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--akhir upload form-->
+
+    <div class="d-flex justify-content-center">
+        <button onclick="statusdaftar()" type="button" class="tombol-2 btn-primary py-3 px-5 mt-4">Daftarkan Akun
+            Saya</button>
+    </div>
+
+    <script src="libraries/jquery/jquery-3.2.1.min.js"></script>
+    <script src="libraries/dropzone/dropzone-5.7.0/dist/min/dropzone.min.js"></script>
+    <script src="libraries/bootstrap/bootstrap-4.6.0-dist/js/bootstrap.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>

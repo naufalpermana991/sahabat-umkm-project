@@ -1,0 +1,664 @@
+/*GLOBAL*/
+.link-details {
+  font-family: Open Sans;
+  color: #1a3d6f;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+
+.link-details:hover {
+  color: #0d2a52;
+}
+
+.text-main {
+  margin-top: 155px;
+  font-family: Sora;
+  font-weight: bold;
+  color: #242424;
+}
+
+.text-title {
+  font-family: Sora;
+  font-weight: bold;
+  color: #242424;
+}
+
+p {
+  color: #3d3d3d;
+  font-family: Open Sans;
+}
+
+.container {
+  .section-phase {
+    margin-top: 10px;
+  }
+}
+
+.footer-text {
+  font-family: Sora;
+  font-weight: bold;
+  color: #242424;
+}
+
+section {
+  margin-top: 145px;
+  background-color: #efefef;
+}
+
+.btn-primary {
+  font-family: Open Sans;
+  background-color: #1a3d6f;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0d2a52;
+}
+
+.link-usaha {
+  font-family: Open Sans;
+  color: #1a3d6f;
+  border-radius: 5px;
+  border: none;
+}
+
+.link-usaha:hover {
+  color: #0d2a52;
+}
+
+.btn-secondary {
+  font-family: Open Sans;
+  background-color: #cacaca;
+  border-radius: 5px;
+  border: none;
+  color: #1a3d6f;
+}
+
+.btn-secondary:hover {
+  background-color: #b4b4b4;
+  color: #1a3d6f;
+}
+
+.btn-secondary-dropdown {
+  font-size: 16px;
+  background-color: #dde2e9;
+  font-family: Open Sans;
+  border-radius: 5px;
+  border: none;
+  color: #1a3d6f;
+}
+
+.btn-secondary-dropdown:hover {
+  background-color: #b4b4b4;
+  color: #1a3d6f;
+}
+
+.btn-primary-toggle {
+  font-family: Open Sans;
+  background-color: #1a3d6f;
+  border: 1px solid #1a3d6f;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.btn-primary-toggle:hover {
+  background-color: #0d2a52;
+}
+
+.btn-secondary-toggle {
+  background-color: #dde2e9;
+  font-family: Open Sans;
+  border: 1px solid #1a3d6f;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #1a3d6f;
+  font-weight: 600;
+}
+
+.btn-secondary-toggle:hover {
+  background-color: #c5cbd3;
+  color: #1a3d6f;
+}
+
+.card-title {
+  font-family: Sora;
+  font-weight: bold;
+  color: #242424;
+}
+
+.status {
+  font-family: Open Sans;
+  font-weight: 600;
+  color: #4983d4;
+}
+
+.status-sukses {
+  font-family: Open Sans;
+  font-weight: 600;
+  color: #159411;
+}
+.btn-success {
+  font-family: Open Sans;
+  border-radius: 5px;
+  border: none;
+}
+
+.badge-success {
+  border-radius: 10px;
+  font-family: Sora !important;
+  font-weight: 600;
+  background-color: #27ae60;
+}
+
+.badge-info {
+  border-radius: 10px;
+  font-family: Sora !important;
+  font-weight: 600;
+  background-color: #f59a00;
+}
+
+.alert-info-event-offline {
+  background-color: #dbf6e6;
+  border-radius: 10px;
+  .info-event-offline {
+    color: #08612e;
+  }
+}
+
+.wa {
+  max-height: 24px;
+}
+
+.order-wa {
+  color: #075e54;
+  &:hover {
+    color: #075e54;
+  }
+}
+
+/*detail-event*/
+.gallery {
+  background-color: #d3d6dd;
+  border: none;
+  border-radius: 5px;
+}
+.detail-event {
+  background-image: url(../img/berita/card-news-1.png);
+  background-size: cover;
+  height: 540px;
+}
+/*AKHIR GLOBAL*/
+
+/*navbar*/
+.navbar-brand {
+  img {
+    max-height: 50px;
+  }
+}
+
+.navbar-nav {
+  .nav-item.active {
+    .nav-link {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      color: #4983d4;
+    }
+  }
+  .nav-item {
+    .nav-link {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      color: #242424;
+    }
+    .nav-link:hover {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      color: #929292;
+    }
+  }
+}
+
+.btn-outline-primary {
+  border: 2px solid #1a3d6f;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #1a3d6f;
+}
+
+.btn-outline-primary:hover {
+  background-color: #1a3d6f;
+  border: 2px solid #1a3d6f;
+}
+
+.btn-outline-primary-search {
+  border: 2px solid #dde2e9;
+  background-color: #dde2e9;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  font-weight: 600;
+  img {
+    max-height: 24px;
+  }
+}
+
+.btn-outline-primary-search:hover {
+  background-color: #bcc1c9;
+  border: 2px solid #bcc1c9;
+}
+/*akhir navbar*/
+
+/*jumbotron*/
+.jumbotron {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(../img/header.png);
+  background-size: cover;
+
+  .display-3 {
+    font-size: 35px;
+    font-family: Sora;
+    font-weight: 600;
+  }
+
+  .lead {
+    font-family: Open Sans;
+    font-weight: 300;
+  }
+}
+/*akhir jumbotron*/
+
+/*bagian tentang sahabatUMKM*/
+.second-section {
+  img {
+    max-height: 440px;
+    border-radius: 100px 0px;
+  }
+}
+/*akhir bagian tentang sahabatUMKM*/
+
+/*event*/
+.event {
+  border-radius: 20px 20px 20px 20px;
+  .card-img-top {
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+.event-body {
+  background-color: #d2d2d2;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.card-text {
+  font-family: Open Sans;
+  img {
+    max-height: 24px;
+  }
+}
+
+.link {
+  font-family: Open Sans;
+  font-weight: 600;
+  color: #1a3d6f;
+}
+/*akhir event*/
+
+/*testimoni*/
+.text-main {
+  img {
+    max-height: 48px;
+  }
+}
+
+.testimonial {
+  border-radius: 10px;
+}
+
+.testimonial-body {
+  background-color: rgb(226, 226, 226);
+  border: none !important;
+  box-shadow: 5px 8px 30px rgba(192, 192, 192, 0.4);
+  border-radius: 10px;
+}
+
+.testimonials {
+  img {
+    max-height: 30px;
+  }
+}
+/*akhir testimoni*/
+
+/*footer*/
+.footer-image {
+  img {
+    max-height: 50px;
+  }
+}
+
+.social-media-footer {
+  float: left !important;
+  img {
+    max-height: 24px;
+  }
+}
+/*akhir footer*/
+
+/*footer-2*/
+.footer-copyright {
+  background-color: #3d3d3d;
+  p {
+    color: #efefef;
+  }
+}
+/*akhir footer-2*/
+
+/*sidebar*/
+.wrapper {
+  #sidebar {
+    img {
+      max-height: 50px;
+    }
+  }
+}
+/*akhir sidebar*/
+
+/*berita*/
+.news-title {
+  border-radius: 0.625rem;
+  .card-img-top {
+    background-image: cover;
+    height: 391px;
+  }
+  .card-img-overlay {
+    background: linear-gradient(180deg, rgba(36, 36, 36, 0) 0%, #242424 100%);
+  }
+  .author {
+    margin-top: 4rem;
+  }
+}
+
+.news-card {
+  border-radius: 10px;
+  .card-img-top {
+    border-radius: 10px 10px 0 0;
+  }
+  .card-body {
+    border-radius: 0 0 10px 10px;
+    background-color: #efefef;
+  }
+}
+.breadcrumb {
+  .breadcrumb-item {
+    font-family: Open Sans;
+    font-weight: 600;
+    color: #4983d4;
+  }
+  .breadcrumb-item.active {
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #242424;
+  }
+}
+
+.title-news-img {
+  background-color: #b4b4b4;
+  height: 30rem;
+  border-radius: 0.625rem;
+  background-image: url(../img/title-img-details.svg);
+}
+
+.read-more {
+  .news-card {
+    color: #1a3d6f;
+    border-radius: 5px;
+    background-color: #d6d6d6;
+  }
+  .news-card:hover {
+    background-color: #1a3d6f;
+    color: white;
+  }
+}
+
+.text-content {
+  line-height: 200%;
+}
+
+/*akhir berita*/
+
+/*pills*/
+.nav.nav-pills {
+  .nav-item {
+    .standby {
+      font-family: Open Sans;
+      color: #242424;
+      opacity: 0.5;
+    }
+    .standby:hover {
+      background-color: #ececec;
+      border-radius: 10px;
+    }
+    .nav-link.active {
+      background-color: #d6d6d6;
+      color: #242424;
+      font-family: Open Sans;
+      color: #242424;
+      border-radius: 10px;
+    }
+  }
+}
+/*akhir pills*/
+
+/*card event*/
+.event-list-main {
+  border-radius: 10px 10px 0px 0px;
+  .card-body {
+    border-radius: 10px 10px 0px 0px;
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.35) 0%,
+        #000000 100%
+      ),
+      url(../img/event/list-event.svg);
+  }
+
+  .isi {
+    color: #ffffff;
+    opacity: 0.83;
+  }
+}
+
+.btn-primary.tombol-event {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.detail-event-checkout {
+  .card-img-top {
+    height: 270px;
+    width: 155px;
+  }
+  .card-body {
+    background-color: #efefef;
+  }
+}
+
+.upload-transaction {
+  background: #efefef;
+  border: 2px dashed #8e8e8e !important;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+/*transaksi*/
+.transaction {
+  border-radius: 10px;
+  .card-body {
+    background-color: #efefef;
+    border-radius: 10px;
+  }
+}
+/*akhir card event*/
+
+/*jumbotron catalog*/
+.catalog {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(../img/catalog/header-catalog-banner.svg);
+  background-size: cover;
+
+  .display-3 {
+    font-size: 35px;
+    font-family: Sora;
+    font-weight: 600;
+  }
+
+  .lead {
+    font-family: Open Sans;
+    font-weight: 300;
+  }
+}
+/*akhir jumbotron catalog*/
+
+/*catalog*/
+.catalog-card {
+  border-radius: 20px;
+  .card-body {
+    border-radius: 0 0 20px 20px;
+    background-color: #d2d2d2;
+  }
+}
+/*akhir catalog*/
+
+.location-map {
+  height: 469px;
+  background-image: url(../img/map.svg);
+}
+
+/*halaman-sukses*/
+.sukses {
+  max-height: 150px;
+}
+/*akhir halaman-sukses*/
+
+/*responsivity*/
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 2em;
+
+    .display-3 {
+      font-size: 50px;
+    }
+  }
+
+  .container {
+    .section-phase {
+      margin-top: 10px;
+    }
+  }
+
+  .footer-image {
+    img {
+      margin-top: 50px;
+      max-height: 100px;
+    }
+  }
+
+  .news-title {
+    border-radius: 0.625rem;
+    .card-img-top {
+      background-image: cover;
+      height: 391px;
+    }
+    .card-img-overlay {
+      background: linear-gradient(180deg, rgba(36, 36, 36, 0) 0%, #242424 100%);
+    }
+    .author {
+      margin-top: 4rem;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .jumbotron {
+    padding: 5em;
+  }
+  .display-3 {
+    font-size: 65px;
+  }
+
+  .container {
+    .section-phase {
+      margin-top: 145px;
+    }
+  }
+
+  .second-section {
+    img {
+      margin-left: 20px;
+    }
+  }
+
+  .footer-image {
+    img {
+      margin-top: 140px;
+      max-height: 100px;
+    }
+  }
+
+  .text-lg-right {
+    .footer-text {
+      margin-top: 25px;
+    }
+  }
+
+  .social-media-footer {
+    float: right !important;
+    img {
+      max-height: 24px;
+    }
+  }
+
+  /*berita*/
+  .news-title {
+    border-radius: 0.625rem;
+    .card-img-top {
+      background-image: cover;
+      height: 591px;
+    }
+    .card-img-overlay {
+      background: linear-gradient(180deg, rgba(36, 36, 36, 0) 0%, #242424 100%);
+    }
+    .author {
+      margin-top: 25rem;
+    }
+  }
+  /*akhir berita*/
+
+  /*galeri*/
+  .gallery {
+    .card-body {
+      .card-img-top {
+        height: 508px;
+      }
+    }
+  }
+  /*akhir galeri*/
+
+  /*pagination*/
+  .pagination {
+    .page-item {
+      font-family: Open Sans;
+      font-weight: 600;
+    }
+  }
+  /*Akhir pagination*/
+}
+
+/*akhir responsivity*/
